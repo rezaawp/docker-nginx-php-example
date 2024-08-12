@@ -90,7 +90,7 @@ Visit `localhost:8080` in your browser. You should see an output like this.
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-php-version]: https://img.shields.io/badge/PHP-7.4--fpm-blue?style=flat-square
-[ico-nginx-version]: https://img.shields.io/badge/NGINX-1.17-green?style=flat-square
+[ico-php-version]: https://img.shields.io/badge/PHP-8.2--fpm-blue?style=flat-square
+[ico-nginx-version]: https://img.shields.io/badge/NGINX-1.26-green?style=flat-square
 [install-docker]: https://docs.docker.com/engine/installation
 [install-docker-compose]: https://docs.docker.com/compose/install
