@@ -1,4 +1,4 @@
-FROM php:7.4.3-fpm-alpine3.11
+FROM php:8.2-fpm-alpine
 
 # Copy the php config file
 COPY ./docker/php/php-fpm.conf /usr/local/etc/php-fpm.d/www.conf
