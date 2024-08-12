@@ -33,7 +33,7 @@ services:
       MYSQL_USER: user  # Create a new MySQL user
       MYSQL_PASSWORD: user_password  # Set the password for the new MySQL user
     ports:
-      - "3306:3306"  # Maps port 3306 of the host to port 3306 of the container
+      - "3307:3306"  # Maps port 3306 of the host to port 3306 of the container
     volumes:
       - mysql_data:/var/lib/mysql  # Persist MySQL data
     networks:
@@ -44,7 +44,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin
     ports:
-      - "8080:80"  # Maps port 8080 of the host to port 80 of the container
+      - "666:80"  # Maps port 8080 of the host to port 80 of the container
     environment:
       PMA_HOST: mysql  # The name of the MySQL service as defined in the docker-compose file
       PMA_PORT: 3306  # The port MySQL is running on
