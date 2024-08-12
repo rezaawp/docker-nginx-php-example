@@ -15,7 +15,7 @@ This is a simple example for running a docker container with PHP-FPM and NGINX.
 Clone this repository.
 
 ``` bash
-$ git clone https://github.com/mhilker/docker-nginx-php-example
+$ git clone https://github.com/rezaawp/docker-nginx-php-example.git
 ```
 
 Switch to the cloned directory.
@@ -27,7 +27,7 @@ $ cd docker-nginx-php-example
 Start the stack.
 
 ``` bash
-$ docker-compose up
+$ docker-compose up -d
 ```
 
 You should see an output like this.
